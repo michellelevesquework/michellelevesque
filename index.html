@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Michelle Levesque | Leadership, People Development & Learning</title>
-<meta name="description" content="Michelle Levesque is a people and development leader who builds stronger leaders, high-performing teams, and practical learning systems that create clarity, confidence, and better work.">
+<title>Michelle Levesque | Organizational Effectiveness, Leadership & Learning</title>
+<meta name="description" content="Michelle Levesque is a systems thinker, people leader, learning expert, and organizational effectiveness consultant who helps teams create clarity, build capability, and perform at their best.">
 <style>
 :root {
   --bg:#f6f1e8;
@@ -95,8 +95,9 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
   img{max-width:100%;height:auto}
   .hero-title,.hero-body,.sectionhead>*,
   .card,.workitem>*,.principle,.aboutitem,.cta>*{min-width:0}
-  h1,h2,h3,.tagline,.intro,.deck,.statement,.card p,.workitem p,.principle span,.aboutitem{
-    overflow-wrap:anywhere;
+  .name,.tagline,h2,h3,.intro,.deck,.statement,.card p,.workitem p,.principle span,.aboutitem{
+    overflow-wrap:break-word;
+    word-break:normal;
   }
   .btn,.pill{touch-action:manipulation}
 
@@ -171,15 +172,26 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
 
 
 @media(max-width:520px){
-  .hero-title .name{font-size:clamp(32px,10.5vw,44px)}
-  .tagline{font-size:clamp(22px,7vw,29px)}
-  h2{font-size:clamp(38px,12vw,54px)}
-  .statement{font-size:clamp(30px,9.5vw,44px)}
-  .card{min-height:0;padding:22px}
-  .card .num{margin-bottom:20px}
-  .workitem,.principle{padding:22px}
+  .hero{padding:24px 14px 32px}
+  .hero-top{grid-template-columns:64px minmax(0,1fr);gap:9px}
+  .hero-top .photo{width:64px;max-width:64px;border-width:4px}
+  .hero-title .name{font-size:clamp(31px,10.2vw,43px);line-height:.86;letter-spacing:-.05em}
+  .hero-title .name span{padding-left:8px !important}
+  .tagline{font-size:clamp(22px,7.2vw,29px);line-height:1.05}
+  .intro{font-size:16.5px;line-height:1.5}
+  .meta{font-size:10px;letter-spacing:.055em}
+  .pill{font-size:11px;padding:7px 9px}
+  section{padding:38px 16px}
+  h2{font-size:clamp(36px,11.5vw,52px)}
+  .statement{font-size:clamp(29px,9.2vw,42px)}
+  .card{min-height:0;padding:21px}
+  .card .num{margin-bottom:18px}
+  .card h3,.workitem h3{font-size:22px}
+  .workitem,.principle{padding:21px}
   .aboutitem{padding:18px}
-  .btn{padding:13px 17px}
+  .cta{gap:20px}
+  .buttons{width:100%}
+  .btn{padding:13px 16px}
 }
 
 @media(max-width:380px){
@@ -195,7 +207,7 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
 <div class="site">
   <nav style="justify-content:flex-end;">
     <div class="navlinks">
-      <a href="#build">What I build</a>
+      <a href="#build">How I help</a>
       <a href="#scale">Build • Scale • Evolve</a>
       <a href="#how">How I work</a>
       <a href="#about">About</a>
@@ -218,49 +230,50 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
         <div class="tagline">Making work, work.</div>
 
         <p class="intro">
-          Hi, I'm Michelle. I develop leaders, build high-performing teams, and create people systems that turn complexity into clarity so people can make better decisions and do their best work.
+          <strong>Because high-performing teams don't happen by accident. They happen by design.</strong><br><br>
+          Hi, I'm Michelle. I'm a systems thinker, people leader, learning expert, and trusted advisor who helps people and organizations turn complexity into clarity, build capability, and do their best work.
         </p>
 
         <div class="rule"></div>
-        <div class="meta">People Leadership • Leadership Development • Talent • Learning • Change</div>
+        <div class="meta">People Leadership • Systems Thinking • Learning • Talent • Organizational Effectiveness</div>
 
         <div class="pills">
           <span class="pill">People Leadership</span>
-          <span class="pill">Leadership Development</span>
-          <span class="pill">Learning &amp; Development</span>
-          <span class="pill">Talent</span>
-          <span class="pill">Change &amp; Adoption</span>
+          <span class="pill">Systems Thinking</span>
+          <span class="pill">Learning Design</span>
+          <span class="pill">Organizational Development</span>
+          <span class="pill">Consulting &amp; Change</span>
         </div>
       </div>
     </section>
 
     <section id="build">
       <div class="sectionhead">
-        <h2>What I help build</h2>
+        <h2>How I help</h2>
         <p class="deck">
-          I work where leadership, people development, learning, systems, and business strategy meet.
-          I help leaders create clarity, grow good judgment, and build the conditions for people
-          to do their best work.
+          I work where people, systems, learning, and business needs meet. I diagnose what is getting
+          in the way, bring clarity to messy problems, and build practical solutions that help
+          people perform and organizations move.
         </p>
       </div>
 
       <div class="grid3">
         <article class="card">
           <div class="num">01</div>
-          <h3>Leaders &amp; High-Performing Teams</h3>
-          <p>Leadership development, manager coaching, clear expectations, strong judgment, honest feedback, meaningful growth, and the conditions that help great people perform.</p>
+          <h3>Develop People &amp; Teams</h3>
+          <p>I coach, mentor, and lead with empathy, high standards, and trust. I help people build judgment, confidence, ownership, and the skills to do exceptional work together.</p>
         </article>
 
         <article class="card">
           <div class="num">02</div>
-          <h3>Learning &amp; Talent Ecosystems</h3>
-          <p>Onboarding, leadership development, manager capability, performance support, learning architecture, talent practices, and the operating systems behind them.</p>
+          <h3>Simplify Complexity</h3>
+          <p>I turn ambiguity into clear direction: policies, standards, procedures, governance, workflows, and decision frameworks that remove friction and help people move faster.</p>
         </article>
 
         <article class="card">
           <div class="num">03</div>
-          <h3>Clarity, Direction &amp; Better Decisions</h3>
-          <p>I help people cut through noise, understand what matters, make thoughtful decisions, and move forward with confidence and ownership.</p>
+          <h3>Build Organizational Capability</h3>
+          <p>Learning design, talent, organizational development, change, AI, and human-centered systems that strengthen how people learn, lead, decide, and perform.</p>
         </article>
       </div>
     </section>
@@ -269,9 +282,9 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
       <div class="sectionhead">
         <h2>Build. Scale. Evolve.</h2>
         <p class="deck">
-          I've built and evolved L&amp;D, talent, and enablement functions, and led teams across startups,
-          scale-ups, global technology companies, and 100+ year enterprises. Different
-          environments, same question: what will help people and leaders succeed here?
+          I've built and evolved teams, learning and talent functions, operating practices, and
+          people systems across startups, scale-ups, global technology companies, and 100+ year
+          enterprises. Different environments, same question: what will help people succeed here?
         </p>
       </div>
 
@@ -280,7 +293,7 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
           <div class="workmeta">Build</div>
           <div>
             <h3>Create the foundation</h3>
-            <p>Define the strategy, operating model, team, leadership expectations, technology, governance, and first experiences that give a new function traction and credibility.</p>
+            <p>Create the strategy, team, operating model, standards, governance, technology, and experiences that give people clear direction and new work real traction.</p>
           </div>
         </div>
 
@@ -288,7 +301,7 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
           <div class="workmeta">Scale</div>
           <div>
             <h3>Make it repeatable</h3>
-            <p>Turn strong ideas into durable systems, stronger manager practices, learning journeys, and team habits that build capability without creating dependency.</p>
+            <p>Turn strong ideas into repeatable systems, clear standards, leadership practices, learning experiences, and ways of working that scale without adding unnecessary complexity.</p>
           </div>
         </div>
 
@@ -296,7 +309,7 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
           <div class="workmeta">Evolve</div>
           <div>
             <h3>Modernize what already exists</h3>
-            <p>Find friction inside established systems and teams, bring clarity to what matters, and introduce better leadership practices, technology, workflows, learning approaches, and ways of working.</p>
+            <p>Find the friction, ambiguity, or outdated assumptions holding people back, then simplify the system and help teams adopt a clearer, faster, more useful way forward.</p>
           </div>
         </div>
       </div>
@@ -306,53 +319,53 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
       <div class="sectionhead">
         <h2>How I work</h2>
         <p class="deck">
-          A strategy only matters if people know how to act on it.
-          I lead by creating clarity, developing judgment, and giving people the confidence and ownership to move.
+          I listen first, diagnose the real problem, and look at the whole system before recommending a solution.
+          Then I create enough clarity, structure, and momentum for people to move.
         </p>
       </div>
 
       <div class="principles">
         <div class="principle">
-          <strong>Develop capability, not dependency.</strong>
-          <span>I coach people through decisions so they leave with stronger judgment, not just an answer.</span>
+          <strong>See the whole system.</strong>
+          <span>Training isn't always the answer. I look at people, process, policy, technology, incentives, communication, and context before deciding what needs to change.</span>
         </div>
         <div class="principle">
           <strong>Clarity creates confidence.</strong>
-          <span>I help teams separate signal from noise, understand what matters, and know what to do next.</span>
+          <span>Clear expectations, decision rights, standards, and priorities help people make better decisions and move without waiting for permission.</span>
         </div>
         <div class="principle">
-          <strong>High standards. Genuine care.</strong>
-          <span>The strongest teams know what great looks like and trust that their leader is invested in helping them get there.</span>
+          <strong>High trust. High standards.</strong>
+          <span>I make people feel heard and their contributions seen while keeping the bar high. Great teams need both care and accountability.</span>
         </div>
         <div class="principle">
-          <strong>Give people ownership.</strong>
-          <span>I set direction, ask the questions that sharpen thinking, and give people room to own the work and the decision.</span>
+          <strong>Listen before solving.</strong>
+          <span>Strong consulting starts with curiosity. I ask thoughtful questions, surface what isn't obvious, and build with the people closest to the work.</span>
         </div>
         <div class="principle">
-          <strong>Simplify relentlessly.</strong>
-          <span>Every unnecessary step, meeting, or competing priority costs energy. I remove friction so people can focus on meaningful work.</span>
+          <strong>Build capability, not dependency.</strong>
+          <span>I coach people through decisions instead of becoming the answer key, so judgment, confidence, and ownership keep growing.</span>
         </div>
         <div class="principle">
-          <strong>Leave people stronger.</strong>
-          <span>Every team and every person should be more capable, confident, and clear because we worked together.</span>
+          <strong>Optimism creates momentum.</strong>
+          <span>I bring energy and possibility to hard problems. Not blind positivity, but a belief that there is usually a clearer, smarter way forward.</span>
         </div>
       </div>
     </section>
 
     <section>
       <p class="statement">
-        Great leadership creates the conditions for great work.
+        High-performing teams don't happen by accident.
         <strong>Clarity</strong> helps people decide.
-        <strong>Trust</strong> helps them own.
-        <strong>Development</strong> helps them grow.
-        Strong systems make all three easier.
+        <strong>Trust</strong> helps them contribute.
+        <strong>Capability</strong> helps them grow.
+        Great systems make all three easier.
       </p>
     </section>
 
     <section id="about">
       <div class="sectionhead">
         <h2>A few things about me</h2>
-        <p class="deck">Because people hire people.</p>
+        <p class="deck">Because people hire people. I’m empathetic, curious, contagiously optimistic, and deeply invested in helping the people around me succeed.</p>
       </div>
 
       <div class="aboutgrid">
@@ -369,8 +382,8 @@ footer{padding:22px 28px;display:flex;justify-content:space-between;gap:14px;fle
           <div class="meta">Let's connect</div>
           <h2 style="margin-top:10px;">Let's make work, work. Together.</h2>
           <p class="deck" style="margin-top:16px;max-width:700px;">
-            Whether you're building a people function, developing stronger leaders, growing a team,
-            modernizing learning, or helping people navigate change, I'd love to chat.
+            Whether you need a people leader, systems thinker, learning expert, consultant, or someone
+            who can bring clarity to a messy organizational problem, I'd love to chat.
           </p>
         </div>
 
